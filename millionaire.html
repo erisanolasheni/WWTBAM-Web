@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Who Wants to be a Millionaire!</title>
+<!-- Stylesheet -->
+<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+<!-- <button onClick="locateRand()">Check It</button> -->
+<div class="wrap" id="sec1">
+<h1 class="head">You Are Welcome! - WHO WANTS TO BE A MILLIONAIRE V1.0</h1>
+<div class="rest">
+<div class="body1">
+Welcome to the web based version of Wants To Be A Millionaire v1.0,<br>
+designed and developed by <a href="https://www.facebook.com/Software202" target="_blank">Erisan Olasheni</a>.
+</div>
+<div class="body2">
+<div class="moneyPan switch">
+<button onClick="millionaire.play()">START</button>
+<button onClick="millionaire.about();">ABOUT</button>
+</div>
+</div>
+</div>
+</div>
+<div class="wrap" id="sec2">
+<h1 class="head" id="head">WHO WANTS TO BE A MILLIONAIRE V 1.0 - <strong>QUESION 1.</strong></h1>
+<div class="rest">
+<div class="body1">
+<div class="que-pane">
+What is general computing?
+</div>
+<div class="ans-pane" id="ans-pane">
+<div class="alt-opts">A. hjgyude</div>
+<div class="alt-opts">A. degc8de</div>
+<div class="alt-opts">A. edygeu</div>
+<div class="alt-opts">A. eugfyugtf</div>
+</div>
+</div>
+<div class="body2">
+<div class="life-lines">
+<h1>LIFE LINES</h1>
+<img src="phony.png" id="phone" onClick="millionaire.lifeLines.phone()" /><img src="audis.png" id="audi" onClick="millionaire.lifeLines.audi();" /><img src="fifty50.png" id="50" onclick="millionaire.fifty50();" /></div>
+  <div class="subHead">Earnings</div>
+<div class="moneyPan" id="moneyPan">
+<button>₦10,000,000</button>
+<button>₦5,000,000</button>
+<button>₦2,000,000</button>
+<button>₦1,000,000</button>
+<button>₦750,000</button>
+<button>₦500,000</button>
+<button>₦350,000</button>
+<button>₦250,000</button>
+<button>₦150,000</button>
+<button>₦100,000</button>
+<button>₦50,000</button>
+<button>₦25,000</button>
+<button>₦10,000</button>
+<button>₦7,500</button>
+<button class="actStage">₦5,000</button>
+</div>
+</div>
+</div>
+</div>
+<div id="cCall" class="backies"></div>
+<div id="cBack" class="backies">
+<div class="promptAns">
+<div class="cPan" id="cPan">
+<h1>Is This Your Final Answer?</h1>
+<button id="yes" onClick="millionaire.rtrAns()">Yes</button><button onClick="$('#cBack').fadeOut();">No</button>
+</div>
+<!--
+<div class="cPan" id="cPan2">
+<h1>You Are Correct!<br>
+You now have $55
+</h1>
+<button onClick="millionaire.rtrAns()">OK</button>
+</div>
+<div class="cPan" id="cPan3">
+<h1>Oops! The correct answer is : C<br>
+You are going home with $5
+</h1>
+<button onClick="millionaire.rtrAns()">OK</button>
+</div>
+-->
+</div>
+</div>
+</body>
+<div class="pan"></div>
+<script type="text/javascript" src="./script/index.js"></script> 
+</html>
