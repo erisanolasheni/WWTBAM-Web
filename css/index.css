@@ -33,6 +33,10 @@ a, ul, li, img, input, textarea, div, span, h1, h2, h3, h4, h5, h6
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 }
+a
+{
+	color: #FFF;
+}
 .wrap
 {
 	width:70%;
@@ -48,6 +52,15 @@ a, ul, li, img, input, textarea, div, span, h1, h2, h3, h4, h5, h6
 	background:#39F;
 	padding:.5em;
 	position:relative;
+}
+.footer
+{
+	margin-top: 10px;
+	background: #00C;
+}
+.center
+{
+	text-align: center;
 }
 .body1
 {

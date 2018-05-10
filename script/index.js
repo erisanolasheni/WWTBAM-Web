@@ -290,6 +290,6 @@ function randRange(r1, r2)
 	},
     about : function()
     {
-        $('.body1').eq(0).html('Who Wants To Be A Millionaire.<br>Version: 1.0<br>Developed and Compiled by <a href="https://www.facebook.com/Software202" target="_blank" title="visit website">Erisan&nbsp;Olasheni</a><br>&copy;&nbsp;2015.<br>For any error report or suggestion, mail us at: <a href="mailto:cgi.helpcentre@gmail.com" title="Mail for error or suggestion">cgi.helpcentre@gmail.com</a><br>');
+        $('.body1').eq(0).html('Who Wants To Be A Millionaire.<br>Version: 1.0<br>Developed and Compiled by <a href="https://www.facebook.com/Software202" target="_blank" title="visit website">Erisan&nbsp;Olasheni</a><br>&copy;&nbsp;2015.<br>For any error report or suggestion, mail me at: <a href="mailto:cgi.helpcentre@gmail.com" title="Mail for error or suggestion">cgi.helpcentre@gmail.com</a><br>');
     }
 	};
