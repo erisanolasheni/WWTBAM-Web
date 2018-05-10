@@ -162,7 +162,7 @@ function randRange(r1, r2)
 		setTimeout(function(){$("#cCall").html('<div class="que-pane">You: '+window.wQ+'</div>');},15000);
 		setTimeout(function(){$("#cCall").html('<div class="que-pane">'+randNames[rand]+': (thinking...)</div>');},18000);
 		wNum = parseInt(window.wAns);
-		setTimeout(function(){$("#cCall").html('<div class="que-pane">'+randNames[rand]+': '+randComples[rand]+optsAlpha[wNum-1]+'<br><button class="lifeOK"  onClick="$(\'#cCall\').fadeOut();">OK</button></div>'); $("#phone").attr('src','phony2.png');
+		setTimeout(function(){$("#cCall").html('<div class="que-pane">'+randNames[rand]+': '+randComples[rand]+optsAlpha[wNum-1]+'<br><button class="lifeOK"  onClick="$(\'#cCall\').fadeOut();">OK</button></div>'); $("#phone").attr('src','./img/phony2.png');
 		phony = true;},25000);
 	},
 	audi : function()
@@ -214,7 +214,7 @@ function randRange(r1, r2)
 		bars.append(divi1,divi2, divi3, divi4);
 		divis.append(percentDivs,'<div style="width:100%;"></div>',bars,'<div style="width:100%;"></div>',alphaDivs);
 		$lifeOK = '<div class="lifeOK" onclick="$(\'#cCall\').fadeOut();">OK</div>';
-		setTimeout(function(){$("#cCall").html('').append(divis,$lifeOK); $("#audi").attr('src','audis2.png'); audi = true;},12000);
+		setTimeout(function(){$("#cCall").html('').append(divis,$lifeOK); $("#audi").attr('src','./img/audis2.png'); audi = true;},12000);
 	}
 	},
 	fifty50 : function()
@@ -254,7 +254,7 @@ function randRange(r1, r2)
 		$("#cCall").fadeOut(
 		function()
 		{
-			$("#50").attr('src','fifty502.png');
+			$("#50").attr('src','./img/fifty502.png');
 			fifty = true;
 		}
 		);
@@ -283,9 +283,9 @@ function randRange(r1, r2)
 			$("#sec1").fadeIn();
 		}
 		);
-		$("#phone").attr('src','phony.png');
-		$("#50").attr('src','fifty50.png');
-		$("#audi").attr('src','audis.png');
+		$("#phone").attr('src','./img/phony.png');
+		$("#50").attr('src','./img/fifty50.png');
+		$("#audi").attr('src','./img/audis.png');
 		$("#head").html('WHO WANTS TO BE A MILLIONAIRE V 1.0 - <strong>QUESION 1.</strong>');
 	},
     about : function()
